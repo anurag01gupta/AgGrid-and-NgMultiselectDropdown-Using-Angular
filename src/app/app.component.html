@@ -1,0 +1,74 @@
+<div class="clear clearfix custom-multiselect-dropdown panel-container">
+    <h3 class="clear clearfix">
+      <label class="pull-left">Geocode Fallout Report</label>
+      <a class="pull-right">
+        <i class="far fa-question-circle"></i>
+      </a>
+      <a class="pull-right">
+        <i class="fas fa-angle-down"></i>
+      </a>
+    </h3>
+    <div class="row col-md-12 no-margin">
+      <div class="clear clearfix no-padding" style="margin-bottom: 10px">
+        <label class="col-md-6 col-xs-12" style="padding-right: 10px;line-height: 2em;">Countries</label>
+        <div class="col-md-6 col-xs-12 no-padding">
+          <ng-multiselect-dropdown
+          [placeholder]="'Country'"
+          [data]="dropdownList[0].Countries"
+          [settings]="dropdownSettings"
+          [(ngModel)]="SelectedCountry"
+          (onSelect)="onItemSelect($event, 1)">
+          </ng-multiselect-dropdown>
+        </div>
+      </div>
+      <div class="clear clearfix no-padding" style="margin-bottom: 10px">
+        <label class="col-md-6 col-xs-12" style="padding-right: 10px;line-height: 2em;">Address Type</label>
+        <div class="col-md-6 col-xs-12 no-padding">
+          <ng-multiselect-dropdown
+          [placeholder]="'Address Type'"
+          [data]="dropdownList[1].AddressType"
+          [settings]="dropdownSettings"
+          [(ngModel)]="SelectedAddressType"
+          (onSelect)="onItemSelect($event, 1)">
+          </ng-multiselect-dropdown>
+        </div>
+      </div>
+      <div class="clear clearfix no-padding" style="margin-bottom: 10px">
+        <label class="col-md-6 col-xs-12" style="padding-right: 10px;line-height: 2em;">Order / Contract No.</label>
+        <div class="col-md-6 col-xs-12 no-padding">
+          <input type="number" [(ngModel)]="OrderNo" placeholder="Order / Contract No." class="form-control">
+        </div>
+      </div>
+      <div class="clear clearfix no-padding" style="margin-bottom: 10px">
+        <label class="col-md-6 col-xs-12" style="padding-right: 10px;line-height: 2em;">Contract Site</label>
+        <div class="col-md-6 col-xs-12 no-padding">
+          <input type="text" [(ngModel)]="ContractSite" placeholder="Contract Site" class="form-control">
+        </div>
+      </div>
+      <div class="clear clearfix no-padding" style="margin-bottom: 10px">
+        <label class="col-md-6 col-xs-12" style="padding-right: 10px;line-height: 2em;">Match Category</label>
+        <div class="col-md-6 col-xs-12 no-padding">
+          <ng-multiselect-dropdown
+          [placeholder]="'Match Category'"
+          [data]="dropdownList[2].MatchCategory"
+          [settings]="dropdownSettings"
+          [(ngModel)]="SelectedMatchCategory"
+          (onSelect)="onItemSelect($event, 1)">
+          </ng-multiselect-dropdown>
+        </div>
+      </div>
+      <div class="col-md-6 col-xs-12 pull-left">
+        <button type="button" class="btn btn-info btn-sm">
+          Generate Report
+        </button>
+      </div>
+      <div class="col-md-6 col-xs-12 no-padding">
+        <a class=" pull-right">
+          <i class="fa fa-eye fa-lg"></i>
+        </a>
+        <a class=" pull-right">
+          <i class="fa fa-download fa-lg"></i>
+        </a>
+      </div>
+    </div>
+</div>
