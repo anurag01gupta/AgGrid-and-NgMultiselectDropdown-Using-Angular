@@ -1,7 +1,29 @@
-<ag-grid-angular 
-    style="width: 500px; height: 500px;" 
-    class="ag-theme-balham"
-    [rowData]="rowData" 
-    [columnDefs]="columnDefs"
-    >
-</ag-grid-angular>
+<div class="row no-margin no-padding">
+    <div class="alert alert-info" *ngIf="showMessage">
+        {{message}}
+        <a (click)="showMessage=false;"><i class="far fa-close"></i></a>
+    </div>
+    <div class="col-md-1 no-padding">
+
+    </div>
+    <div class="col-md-11 no-padding">
+        <div class="row no-margin no-padding">
+            <div class="col-md-12 no-padding">
+                <ag-grid-angular 
+                    style="width: 98%; height: 400px; min-height: 100px; margin: 10px" 
+                    class="ag-theme-balham"
+                    [rowData]="rowData" 
+                    [columnDefs]="columnDefs"
+                    [enableColResize]="true"
+                    [enableFilter]="true"
+                    (gridReady)="onGridReady($event)"
+                    [pagination]="true"
+                    [paginationAutoPageSize]="true"
+                    [context]="context"
+                    >
+                </ag-grid-angular>
+            </div>
+        </div>
+    </div>
+</div>
+

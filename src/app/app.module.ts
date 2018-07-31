@@ -3,29 +3,26 @@ import { NgModule } from '@angular/core';
 import { NgMultiSelectDropDownModule } from 'ng-multiselect-dropdown';
 import { FormsModule } from '@angular/forms';
 import { AgGridModule } from 'ag-grid-angular';
-import { RouterModule, Routes} from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { AgGridLayoutComponent } from './ag-grid-layout/ag-grid-layout.component';
-
-const routes: Routes = [
-  { path: 'gridLayout', component: AgGridLayoutComponent }
-];
-
+import { GridActionsComponent } from './grid-actions/grid-actions.component';
 @NgModule({
   declarations: [
     AppComponent,
-    AgGridLayoutComponent
+    AgGridLayoutComponent,
+    GridActionsComponent
   ],
   imports: [
     BrowserModule,
     NgMultiSelectDropDownModule.forRoot(),
     FormsModule,
-    AgGridModule.withComponents([]),
-    RouterModule.forRoot(routes)
+    AgGridModule.withComponents([])
   ],
-  exports: [RouterModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [
+    GridActionsComponent,
+  ]
 })
 export class AppModule { }
