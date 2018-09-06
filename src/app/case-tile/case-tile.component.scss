@@ -1,0 +1,118 @@
+.case-tile-container{
+    border: 1px solid #F6F4F2;
+    color: #5f5959;
+    min-height: 50px;
+    height: auto;
+    width: 100%;
+    background: #fff;
+    padding: 10px;
+    .case-row{
+        line-height: 1.2;
+        padding: 1px;
+        margin: 0;
+        margin-bottom: 8px;
+        .badge{   
+            padding: 3px 7px;
+            font-size: 11px;
+            background-color: #FF8F03;
+            line-height: 0.8;
+            border-radius: 3px;
+            margin-right: 10px;
+        }
+        label{
+            margin-bottom: 2px;
+        }
+        a{
+            color: #11bcf5;
+            cursor: pointer;
+            margin-right: 5px;
+            span{
+                color: #5f5959;
+            }
+        }
+        .info-badge{
+            background: #e0ddd9;
+            color: #5f5959;
+            line-height: 1;
+            font-size: 11px;
+            padding: 1px 6px;
+            margin-right: 10px;
+        }
+        .btn{
+            margin-right: 5px;
+            outline: none;
+            border-color: #dcdcdb;
+        }
+        .btn-info{
+            background: #11bcf5;
+            border-color: #11bcf5 !important;
+        }
+        .btn-default{
+            background: #fff;
+        }
+        .case-desc{
+            color: #5f5959;
+            width: 70%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis; 
+            position: relative;
+            i{
+                position: absolute;
+                right: 5px;
+            }
+        }
+        .case-desc + a{
+            margin-left: 5px;
+            position: absolute;
+        }
+        .case-customer{
+            text-transform: uppercase;
+            font-weight: 400;
+        }
+    }
+}
+
+
+
+.well{
+    border-radius: 0%;
+    margin: 0;
+    padding: 5px;
+    background: #FAF9F7;
+    width: 49%;
+    margin-right: 4px;
+    margin-bottom: 4px;
+}
+
+
+
+.cursor-pointer{
+    cursor: pointer;
+  }
+  
+  .container{
+    padding: 10px !important;
+  }
+  
+  .margin-right-5{
+    margin-right: 5px !important;
+  }
+  
+  .margin-right-10{
+    margin-right: 10px !important;
+  }
+  .margin-right-15{
+    margin-right: 15px !important;
+  }
+  
+.no-padding{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .no-margin{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  

@@ -1,0 +1,26 @@
+
+  <div class="col-md-12 no-padding" style="margin-top: 10px;">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+        <div class="row">
+          <a class="pull-right" style="color: #9E978B"><i class="fas fa-list-ul"></i></a>
+          <a class="pull-right margin-right-10" style="color: #9E978B"><i class="fas fa-th-large"></i></a>
+          <div class="col-md-3 pull-right no-padding search-input margin-right-15">
+              <input class="form-control pull-right" placeholder="Search for case or users"/>
+              <i class="fas fa-search fa-sm"></i>
+          </div>
+        </div>
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+  <div class="col-md-12 no-padding">
+    <div class="col-md-1"></div>
+      <div class="col-md-10">
+          <div class="row">
+            <div  *ngFor="let casetile of caseTileList; let i = index" [attr.data-index]="i" >
+              <app-case-tile [casetile]="casetile" [firstNode]="i" (action)="action($event)"></app-case-tile>
+            </div>
+            </div>
+    </div>    
+    <div class="col-md-1"></div>
+    </div>

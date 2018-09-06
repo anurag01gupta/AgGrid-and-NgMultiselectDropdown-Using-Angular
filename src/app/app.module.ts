@@ -7,11 +7,15 @@ import { AgGridModule } from 'ag-grid-angular';
 import { AppComponent } from './app.component';
 import { AgGridLayoutComponent } from './ag-grid-layout/ag-grid-layout.component';
 import { GridActionsComponent } from './grid-actions/grid-actions.component';
+import { CaseTileComponent } from './case-tile/case-tile.component';
+import { CaseTitleListComponent } from './case-title-list/case-title-list.component';
 @NgModule({
   declarations: [
     AppComponent,
     AgGridLayoutComponent,
-    GridActionsComponent
+    GridActionsComponent,
+    CaseTileComponent,
+    CaseTitleListComponent
   ],
   imports: [
     BrowserModule,

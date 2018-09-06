@@ -1,0 +1,192 @@
+export class Constants {
+   public static getConst = {
+    "softWorkQueue": [
+        {
+          "casenumber": "5682992229",
+          "priority": "1",
+          "category": "ENG",
+          "status": "ON HOLD",
+          "description": "Troubleshoot EIGRP, OSPF, and IS-IS neighbor relationships and routing paths",
+          "customer": "KAPSCH BUSINESSCOM AG",
+          "requestType": "Replace My Product",
+          "messages": [],
+          "assignedStatus": "decline/accept",
+          "assignedTo": "",
+          "min": 115387,
+          "age": 2,
+          "resourceGroup": "BEJ-SMBSA-APAC"
+        },
+        {
+          "casenumber": "5682992230",
+          "priority": "2",
+          "category": "ENG",
+          "status": "IN PROCESS",
+          "description": "Troubleshoot EIGRP, OSPF, and IS-IS neighbor relationships and routing paths",
+          "customer": "KAPSCH BUSINESSCOM AG",
+          "requestType": "Replace My Product",
+          "messages": [],
+          "assignedStatus": "decline/accept",
+          "assignedTo": "",
+          "min": 115387,
+          "age": 2,
+          "resourceGroup": "BEJ-SMBSA-APAC"
+        },
+        {
+          "casenumber": "5682992231",
+          "priority": "3",
+          "category": "ENG",
+          "status": "CLOSED",
+          "description": "Troubleshoot EIGRP, OSPF, and IS-IS neighbor relationships and routing paths",
+          "customer": "KAPSCH BUSINESSCOM AG",
+          "requestType": "Replace My Product",
+          "messages": [],
+          "assignedStatus": "decline/accept",
+          "assignedTo": "",
+          "min": 115387,
+          "age": 2,
+          "resourceGroup": "BEJ-SMBSA-APAC"
+        }
+      ],
+      "nonSoftWorkQueue":[
+        {
+          "casenumber": "5682992229",
+          "priority": "1",
+          "category": "ENG",
+          "status": "ON HOLD",
+          "description": "Troubleshoot EIGRP, OSPF, and IS-IS neighbor relationships and routing paths",
+          "customer": "KAPSCH BUSINESSCOM AG",
+          "requestType": "Replace My Product",
+          "messages": [],
+          "assignedStatus": "decline/accept",
+          "assignedTo": "",
+          "min": 115387,
+          "age": 2,
+          "resourceGroup": "BEJ-SMBSA-APAC"
+        },
+        {
+          "casenumber": "5682992229",
+          "priority": "1",
+          "category": "ENG",
+          "status": "ON HOLD",
+          "description": "Troubleshoot EIGRP, OSPF, and IS-IS neighbor relationships and routing paths",
+          "customer": "KAPSCH BUSINESSCOM AG",
+          "requestType": "Replace My Product",
+          "messages": [],
+          "assignedStatus": "decline/accept",
+          "assignedTo": "",
+          "min": 115387,
+          "age": 2,
+          "resourceGroup": "BEJ-SMBSA-APAC"
+        },
+        {
+          "casenumber": "5682992229",
+          "priority": "1",
+          "category": "ENG",
+          "status": "ON HOLD",
+          "description": "Troubleshoot EIGRP, OSPF, and IS-IS neighbor relationships and routing paths",
+          "customer": "KAPSCH BUSINESSCOM AG",
+          "requestType": "Replace My Product",
+          "messages": [],
+          "assignedStatus": "decline/accept",
+          "assignedTo": "",
+          "min": 115387,
+          "age": 2,
+          "resourceGroup": "BEJ-SMBSA-APAC"
+        }
+      ],
+      "optInQueue": [
+        {
+          "casenumber": "5682992229",
+          "priority": "1",
+          "category": "ENG",
+          "status": "ON HOLD",
+          "description": "Troubleshoot EIGRP, OSPF, and IS-IS neighbor relationships and routing paths",
+          "customer": "KAPSCH BUSINESSCOM AG",
+          "requestType": "Replace My Product",
+          "messages": [],
+          "assignedStatus": "decline/accept",
+          "assignedTo": "",
+          "min": 115387,
+          "age": 2,
+          "resourceGroup": "BEJ-SMBSA-APAC"
+        },
+        {
+          "casenumber": "5682992229",
+          "priority": "1",
+          "category": "ENG",
+          "status": "ON HOLD",
+          "description": "Troubleshoot EIGRP, OSPF, and IS-IS neighbor relationships and routing paths",
+          "customer": "KAPSCH BUSINESSCOM AG",
+          "requestType": "Replace My Product",
+          "messages": [],
+          "assignedStatus": "decline/accept",
+          "assignedTo": "",
+          "min": 115387,
+          "age": 2,
+          "resourceGroup": "BEJ-SMBSA-APAC"
+        },
+        {
+          "casenumber": "5682992229",
+          "priority": "1",
+          "category": "ENG",
+          "status": "ON HOLD",
+          "description": "Troubleshoot EIGRP, OSPF, and IS-IS neighbor relationships and routing paths",
+          "customer": "KAPSCH BUSINESSCOM AG",
+          "requestType": "Replace My Product",
+          "messages": [],
+          "assignedStatus": "decline/accept",
+          "assignedTo": "",
+          "min": 115387,
+          "age": 2,
+          "resourceGroup": "BEJ-SMBSA-APAC"
+        }
+      ],
+      "othersWorkQueue":[
+        {
+          "casenumber": "5682992229",
+          "priority": "1",
+          "category": "ENG",
+          "status": "ON HOLD",
+          "description": "Troubleshoot EIGRP, OSPF, and IS-IS neighbor relationships and routing paths",
+          "customer": "KAPSCH BUSINESSCOM AG",
+          "requestType": "Replace My Product",
+          "messages": [],
+          "assignedStatus": "decline/accept",
+          "assignedTo": "",
+          "min": 115387,
+          "age": 2,
+          "resourceGroup": "BEJ-SMBSA-APAC"
+        },
+        {
+          "casenumber": "5682992229",
+          "priority": "1",
+          "category": "ENG",
+          "status": "ON HOLD",
+          "description": "Troubleshoot EIGRP, OSPF, and IS-IS neighbor relationships and routing paths",
+          "customer": "KAPSCH BUSINESSCOM AG",
+          "requestType": "Replace My Product",
+          "messages": [],
+          "assignedStatus": "decline/accept",
+          "assignedTo": "",
+          "min": 115387,
+          "age": 2,
+          "resourceGroup": "BEJ-SMBSA-APAC"
+        },
+        {
+          "casenumber": "5682992229",
+          "priority": "1",
+          "category": "ENG",
+          "status": "ON HOLD",
+          "description": "Troubleshoot EIGRP, OSPF, and IS-IS neighbor relationships and routing paths",
+          "customer": "KAPSCH BUSINESSCOM AG",
+          "requestType": "Replace My Product",
+          "messages": [],
+          "assignedStatus": "decline/accept",
+          "assignedTo": "",
+          "min": 115387,
+          "age": 2,
+          "resourceGroup": "BEJ-SMBSA-APAC"
+        }
+      ]
+   }    
+}

@@ -1,0 +1,36 @@
+<div class="well col-md-6 col-xs-12" >
+
+<div class="case-tile-container">
+  <div class="case-row">
+    <span class="badge badge-secondary">{{casetile.priority}}</span>
+    <a style="margin-right: 20px">{{casetile.casenumber}}</a>
+    <span class="info-badge">{{casetile.category}}</span>
+    <span class="info-badge">{{casetile.status}}</span>
+    <span class="pull-right">
+        <button class="btn btn-xs btn-default" [disabled]="firstNode" (click)="actions(0)">Decline</button>
+        <button class="btn btn-xs btn-info" [disabled]="firstNode" (click)="actions(1)">Accept Case</button>
+      </span>
+  </div>
+  <div class="case-row" style="margin-bottom: 0">
+    <label class="case-desc" title="{{casetile.description}}">
+      {{casetile.description}}
+    </label>
+    <a title="{{casetile.description}}"><i class="far fa-question-circle"></i></a>
+  </div>
+  <div class="case-row" style="line-height: 0.8;padding-left: 3px;">
+      <label class="case-customer">{{casetile.customer}}</label>
+    </div>
+    <div class="case-row" style="line-height: 0.8;padding-left: 3px;">
+      <b style="font-size: 12px;">Request Type</b>
+    </div>
+    <div class="case-row" style="line-height: 0.8;padding-left: 3px;">
+        <span>{{casetile.requestType}}</span>
+        <div class="pull-right">
+          <a><i class="icon-email"></i>&nbsp;<span>Email</span></a>
+          <a><i class="icon-webex"></i>&nbsp;<span>WebEx</span></a>
+          <a><i class="icon-spark"></i>&nbsp;<span>Spark Room</span></a>
+          <a><i class="icon-phone"></i>&nbsp;<span>Accept Call</span></a>
+        </div>
+    </div>
+</div>
+</div>
